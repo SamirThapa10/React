@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    display: inline-block;
+    color: white;
+    margin: 0rem 15px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.navbar ul li a:hover,
+.navbar ul li:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.nav-item_signup{
+    margin-left: 130px;
+}
+
+.nav-item_login{
+    margin-right: 160px;
+}
+
+.nav-item_login button{
+    background: none;
+    color: white;
+    width:80px;
+    height:40px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.nav-item_login button:hover{
+    cursor: pointer;
+    background-color:  #D12D35;   
+}

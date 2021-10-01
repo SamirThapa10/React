@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.navbar ul li{
+    display: inline-block;
+    color: white;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.navbar ul li img{
+    display: inline;
+    margin-left: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,132 @@
+.header{
+    color: #ffffff;
+    max-width: 100%;
+    height: 558px;   
+    background-image: url('../../../assets/images/Group\ 1.png');
+    opacity: 0.9; 
+    background:cover;
+}
+
+.header-top {
+    display: flex; 
+    height: 50px;
+    margin-left: 160px; 
+      
+  }
+
+.header-top_logo{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 0 ;
+    margin-top: 53px;
+}
+
+.header-logo img{
+    color: inherit;
+    text-decoration: inherit;
+    width: 122px;
+    height: 80px;
+    padding-right:85px;
+}
+
+.header-top_navbar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.header-bottom{
+    display: flex; 
+    margin-top: 137px;
+    margin-left: 160px;
+}
+
+.header-bottom_box{
+    margin-left: 20px;
+    width: 1016px;
+    height: 200px;
+    text-align-last: left;
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.header-bottom_box_text{
+    margin-left: 3px;
+}
+
+.header-bottom_button button{
+    margin-top: 15px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    text-align-last: center;
+    background-color: #323A40;
+    border: 0px;
+    margin-left: 3px;
+    
+} 
+
+.header-bottom_button button:hover{
+    background-color: #D12D35;
+    cursor: pointer;
+}
+
+.header-bottom_search input{
+    width: 605px;
+    height: 40px;
+    margin-left: 3px;
+}
+
+.header-bottom_search button{
+    width: 130px;
+    height: 45px;
+    text-align-last: center;
+    color: white;
+    background-color: #D12D35;
+    border: 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.header-bottom_learn{
+    display: inline;
+    text-align-last: center;
+    width: 210px;
+    height: 200px;
+    font-size: 14px;
+}
+
+.header-bottom_title{
+    text-align-last: left;
+    font-size: 14px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.header-bottom_text{
+    text-align-last: left;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.header-bottom_learnmore button{
+    background: none;
+    color: white;
+    margin-top: 49px;
+    width:138px;
+    height:23px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.header-bottom_learnmore button:hover{
+    background-color:  #D12D35;
+    cursor: pointer;
+}
